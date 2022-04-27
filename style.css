@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+body{
+    padding: 50px;
+    margin: 0 auto;
+    font-family: Poppins;
+}
+
+
+h1{
+    text-align: center;
+    font-family: "Just Another Hand";
+    text-transform: uppercase;
+    font-size: 60px;
+    color:#F48A81;
+}
+
+h2{
+    font-family: "Just Another Hand";
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;  
+
+}
+
+.l{
+    color:#FFC712;
+}
+
+.wsg{
+    color:#252841;
+}
+
+.container{
+padding: 40px;
+margin:  20px;
+text-align: center;
+background-color: rgba(128, 128, 128, 0.08);
+
+}
+
+
+.color-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.color{
+    width: 200px;
+    padding:  50px 10px;
+    margin: 20px 10px 0 10px;
+    text-align: center;
+    color: white;
+    background-color: grey;
+}
+
+.colorboxPink{
+    background-color: #F48A81;
+}
+
+.colorboxYellow{
+    background-color: #FFC712;
+    color: black;
+}
+
+.colorboxBlack{
+    background-color: #252841;
+}
+
+.colorboxWhite{
+    background-color: #fff;
+    color: black;
+}
+
+.fonts-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin:10px;
+}
+
+.fonts{
+    padding:  50px 10px;
+    margin: 20px 10px 0 10px;
+    text-align: center;
+    width: 400px;
+}
+
+.just-another-hand{
+    font-family: "Just Another Hand";
+    font-size: 24px;
+}
+
+.heading-just-another-hand{
+    font-size: 30px;
+    margin-bottom:20px;
+    color:#F48A81;
+    text-transform: uppercase;
+}
+
+.poppins{
+    font-family: "Poppins";
+    font-size:  16px;  
+}
+.heading-poppins{
+    font-size:  24px;  
+    margin-bottom:20px;
+    color:#F48A81;
+    text-transform: uppercase;
+}
+
+.reg-italic-poppins{
+    font-style:italic;
+}
+
+.bold-poppins{
+    font-weight: bold;
+}
+
+.text-styles-container{
+    text-align: left;
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-styles-container h1{
+    text-align: left; 
+}
