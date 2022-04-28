@@ -86,7 +86,7 @@ background-color: rgba(128, 128, 128, 0.08);
 }
 
 .fonts{
-    padding:  50px 10px;
+    padding:  20px 10px;
     margin: 20px 10px 0 10px;
     text-align: center;
     width: 400px;
@@ -124,12 +124,22 @@ background-color: rgba(128, 128, 128, 0.08);
 }
 
 .text-styles-container{
-    text-align: left;
-    width:30%;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin:10px;
 }
 
 .text-styles-container h1{
     text-align: left; 
+    font-size: 40px;
+}
+
+.stylesbox{
+    padding:  20px 10px;
+    margin: 10px;
+    text-align: left;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
